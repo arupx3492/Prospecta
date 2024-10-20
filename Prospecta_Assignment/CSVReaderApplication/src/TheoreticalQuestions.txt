@@ -1,6 +1,33 @@
 1. How will you tackle the challenge above?
-=>
+=>To tackle the challenge of reading a CSV file, evaluating formulas, and outputting results,  This is the  process:-
+
+  File Reading: Use BufferedReader to read the CSV file line by line. This allows for efficient handling of potentially
+   large files.
+
+  Data Structure: Utilize a Map<String, Double> to store evaluated values of cells. This allows for quick lookups when
+  evaluating formulas.
+
+  Formula Parsing: Implement a method to identify and evaluate formulas. This method will parse the formula, replacing
+  cell references with their corresponding values from the map.
+  Output Writing: Use BufferedWriter to write the results to an output CSV file, ensuring the format matches the
+  original input.
+
 2. What type of errors you would you check for?
-=>
+=>When developing this application, I would check for several types of errors, including:
+
+  File Not Found: Ensure the specified input CSV file exists. If not, handle the FileNotFoundException.
+  IOException: Handle any I/O issues that may arise during reading or writing files.
+  Invalid CSV Format: Check for unexpected line formats or malformed CSV rows that could cause parsing errors.
+  Invalid Numeric Conversion: Handle exceptions when trying to convert string values to doubles, such as
+  NumberFormatException. Formula Evaluation Errors: Check for invalid formulas that could reference non-existent cells
+  or contain syntax   errors.
 3. How might a user break your code?
-=>
+=>A user might break the code in several ways:
+
+  Invalid File Path: Providing a path to a non-existent CSV file will result in a FileNotFoundException.
+  Malformed CSV Content: If the CSV contains rows with inconsistent columns or unexpected characters, it could cause
+  parsing errors.
+  Invalid Formulas: Using malformed or circular formulas (e.g., =A1+B1 where B1 references A1) may lead to runtime
+  exceptions or incorrect evaluations.
+  Non-numeric Input: Entering non-numeric values in expected numeric fields could trigger NumberFormatException when
+  attempting to parse.
