@@ -1,0 +1,6 @@
+1. How will you tackle the challenge above?
+=>
+2. What type of errors you would you check for?
+=>
+3. How might a user break your code?
+=>
