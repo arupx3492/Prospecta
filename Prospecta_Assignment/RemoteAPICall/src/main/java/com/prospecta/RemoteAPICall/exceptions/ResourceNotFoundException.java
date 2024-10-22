@@ -1,4 +1,4 @@
-package com.prospecta.Prospecta_Assignement.exceptions;
+package com.prospecta.RemoteAPICall.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException {
 

@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.prospecta</groupId>
-	<artifactId>Prospecta_Assignement</artifactId>
+	<artifactId>RemoteAPICall</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Prospecta_Assignement</name>
+	<name>RemoteAPICall</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

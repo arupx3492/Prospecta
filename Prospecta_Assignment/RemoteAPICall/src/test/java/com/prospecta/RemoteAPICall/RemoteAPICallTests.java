@@ -1,10 +1,10 @@
-package com.prospecta.Prospecta_Assignement;
+package com.prospecta.RemoteAPICall;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProspectaAssignementApplicationTests {
+class RemoteAPICallTests {
 
 	@Test
 	void contextLoads() {

@@ -1,11 +1,10 @@
-package com.prospecta.Prospecta_Assignement.controller;
+package com.prospecta.RemoteAPICall.controller;
 
-import com.prospecta.Prospecta_Assignement.model.Product;
-import com.prospecta.Prospecta_Assignement.service.ProductService;
+import com.prospecta.RemoteAPICall.model.Product;
+import com.prospecta.RemoteAPICall.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 

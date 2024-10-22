@@ -1,4 +1,4 @@
-package com.prospecta.Prospecta_Assignement.config;
+package com.prospecta.RemoteAPICall.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.prospecta.Prospecta_Assignement.exceptions;
+package com.prospecta.RemoteAPICall.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

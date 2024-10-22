@@ -1,7 +1,7 @@
-package com.prospecta.Prospecta_Assignement.service;
+package com.prospecta.RemoteAPICall.service;
 
-import com.prospecta.Prospecta_Assignement.exceptions.ResourceNotFoundException;
-import com.prospecta.Prospecta_Assignement.model.Product;
+import com.prospecta.RemoteAPICall.exceptions.ResourceNotFoundException;
+import com.prospecta.RemoteAPICall.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

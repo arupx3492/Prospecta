@@ -1,4 +1,4 @@
-package com.prospecta.Prospecta_Assignement.model;
+package com.prospecta.RemoteAPICall.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

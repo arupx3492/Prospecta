@@ -1,6 +1,6 @@
-package com.prospecta.Prospecta_Assignement.service;
+package com.prospecta.RemoteAPICall.service;
 
-import com.prospecta.Prospecta_Assignement.model.Product;
+import com.prospecta.RemoteAPICall.model.Product;
 
 import java.util.List;
 
