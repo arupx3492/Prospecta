@@ -4,7 +4,7 @@ This repository contains two Java applications: `CsvProcessorApp` and `FakeStore
 
 ## Table of Contents
 
-- [1. CsvProcessorApp](https://github.com/arupx3492/Prospecta/tree/main/Prospecta_Assignment/CSVReaderApplication)
+- [1. CSVReaderApplication](https://github.com/arupx3492/Prospecta/tree/main/Prospecta_Assignment/CSVReaderApplication)
 - [2. RemoteAPICall](https://github.com/arupx3492/Prospecta/tree/main/Prospecta_Assignment/Prospecta_Assignement)
 - [2. Theoretical Challenge](https://github.com/arupx3492/Prospecta/blob/main/Prospecta_Assignment/CSVReaderApplication/src/TheoreticalQuestions.txt)
 
@@ -29,7 +29,7 @@ This repository contains two Java applications: `CsvProcessorApp` and `FakeStore
 
 ### Files
 
-- `CsvFormulaEvaluator.java`: The main class that processes the CSV and evaluates the formulas.
+- `CsvReader.java: The main class that processes the CSV and evaluates the formulas.
 - `data.csv`: Sample input CSV file that contains numbers and formulas.
 
 ### Usage
